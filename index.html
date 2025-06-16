@@ -39,12 +39,12 @@
 
     <main>
       <div class="flex justify-center mt-13 gap-5">
-        <button
+        <button id="donation-button"
           class="font-semibold text-gray-500 border-1 py-1 px-5 rounded-md border-gray-300 hover:bg-[#B4F461] hover:text-white"
         >
           Donation
         </button>
-        <button
+        <button id="history-button"
           class="font-semibold text-gray-500 border-1 py-1 px-5 rounded-md border-gray-300 hover:bg-[#B4F461] hover:text-white"
         >
           History
@@ -52,8 +52,8 @@
       </div>
 
       <!--START DONATION SECTION -->
-      <section class="my-10">
-        <!-- 1ST BOX -->
+      <section id="donation-section" class="my-10">
+        <!--START 1ST BOX -->
               
         <div
           class="flex flex-col md:flex-row items-center w-3/4 lg:w-3/5 mx-auto gap-8 p-5 border-2 border-gray-200 rounded-lg"
@@ -257,7 +257,11 @@
       <!-- END DONATION SECTION -->
 
       <!-- START HISTORY SECTION -->
-      <section></section>
+      <section id="history-section" class="hidden">
+           <div>
+
+           </div>
+      </section>
       <!-- END HISTORY SECTION -->
     </main>
 

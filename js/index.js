@@ -93,4 +93,19 @@ document.getElementById('donate-quotaAid').addEventListener('click', function(){
 })
 // END 3RD BOX JS SECTION
 
+function changeTO(id){
+    document.getElementById('donation-section').classList.add('hidden');
+    document.getElementById('history-section').classList.add('hidden');
+
+    document.getElementById(id).classList.remove('hidden')
+}
+
+document.getElementById('donation-button').addEventListener('click', function(){
+    changeTO('donation-section')
+})
+
+document.getElementById('history-button').addEventListener('click', function(){
+    changeTO('history-section')
+})
+
 

@@ -17,14 +17,14 @@
   <body>
 
     <header>
-        <div class="flex justify-around bg-[#F9F7F3] py-7">
+        <div class="flex flex-col justify-center items-center  md:flex-row md:justify-around bg-[#F9F7F3] py-7">
 
-            <button><a href="blog.html"  class="font-semibold text-lg bg-[#B4F461] py-2 px-6 rounded-lg">Blog</a></button>
-            <div class="flex items-center">
+            <button class="my-5 md:my-0"><a href="blog.html"  class="font-semibold text-lg bg-[#B4F461] py-2 px-6 rounded-lg  ">Blog</a></button>
+            <div class="flex items-center  -order-1 md:order-2">
                 <img src="assets/logo.png" alt="">
-                <h1 class="px-4 font-bold">Donate Bangladesh</h1>
+                <h1 class="px-4 font-bold text-xl md:text-sm">Donate Bangladesh</h1>
             </div>
-            <div class="flex items-center">
+            <div class="flex items-center mt-3 md:mt-0 md:order-3">
                 <img src="assets/coin.png" alt="">
                 <p class="px-3 text-gray-500 font-semibold">5500</p>
                 <p class="text-gray-500 font-semibold">BDT</p>
@@ -34,6 +34,11 @@
     </header>
     
     <main>
+
+        <div class="flex justify-center mt-20">
+            <button>Donation</button>
+            <button>History</button>
+        </div>
 
     </main>
 
